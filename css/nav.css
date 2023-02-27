@@ -16,7 +16,7 @@ nav {
   display: flex;
   justify-content: space-between;
   padding: 1rem 1.5rem;
-  align-items: center;
+  align-items: center !important;
   height: 14vh;
   min-height: 10vh;
   background-color: var(--white);
@@ -36,32 +36,29 @@ nav {
 .nav-links {
   display: flex;
   justify-content: space-around;
-  width: 30%;
+  width: 40%;
 }
-
 .nav-links li {
   list-style: none;
+  margin: 0 1rem;
 }
 .nav-links a {
   color: var(--text);
   text-decoration: none;
   font-weight: bold;
-  font-size: 17px;
+  font-size: 1.1rem;
 }
 .nav-links a:hover {
-  color: var(--orange);
+  color: var(--blue);
 }
-
 .burger {
   display: none;
   cursor: pointer;
 }
-
 .burger div {
   width: 25px;
   height: 3px;
   background-color: var(--blue);
-
   margin: 5px;
   transition: all 0.3s ease;
 }
@@ -103,46 +100,34 @@ nav {
   font-size: 1.4rem;
 }
 /* /////////////////////////// */
-.dropdown {
-  background-color: rgb(255, 255, 255) !important;
-  padding: 1em 0;
-  position: absolute;
-  display: none;
-  border-radius: 8px;
-  top: 35px;
-  width: 12rem;
-}
-.dropdown li + li {
-  margin-top: 1px;
-  color: #000000;
-}
-.dropdown li {
-  padding: 0.5em 1em;
-  width: 8em;
-  text-align: center;
-}
-.dropdown li:hover {
-  background-color: var(--orange);
-  color: var(--white);
-}
-.services:hover .dropdown {
-  display: block;
-}
-/* /////////////////////////// */
-.links li:hover .htmlcss-arrow,
-.links li:hover .js-arrow {
-  transform: rotate(180deg);
-}
-nav .navbar .links li .arrow {
-  height: 100%;
-  width: 22px;
-  line-height: 70px;
-  text-align: center;
-  display: inline-block;
-  color: var(--text) !important;
-  transition: all 0.3s ease;
-}
+
 /* ///////////////////////////////////// */
+nav ul ul {
+  visibility: hidden;
+  position: absolute;
+  opacity: 0;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  z-index: 999;
+}
+nav ul li:hover > ul {
+  visibility: visible;
+  top: 70px;
+  opacity: 1;
+  transition: 0.3 linear;
+  z-index: 999;
+}
+nav ul ul li {
+  width: 150px;
+  display: list-item;
+  position: relative;
+  border-bottom: 1px solid var(--text-light);
+  padding: 0.5rem 0;
+  z-index: 999;
+}
+nav ul li i {
+  color: var(--text);
+  padding-left: 0.2rem;
+}
 @media screen and (max-width: 1024px) {
   .nav-links {
     width: 60%;
@@ -159,13 +144,13 @@ nav .navbar .links li .arrow {
   body {
     overflow-x: hidden;
   }
-  nav{
-    background-image: none;  
+  nav {
+    background-image: none;
   }
-  .logo{
+  .logo {
     margin-right: 5rem;
   }
-  .logo img{
+  .logo img {
     width: 60%;
   }
   .nav-links {
