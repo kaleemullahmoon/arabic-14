@@ -308,6 +308,7 @@
   }
   .main-memory {
     flex-wrap: wrap;
+    width: 100% !important;
   }
   .main-memory img {
     width: 50%;
@@ -316,6 +317,8 @@
   .main-memory ul h2 {
     font-size: 1.5rem;
     padding-bottom: 1.2rem;
+    margin-right: 0rem;
+    text-align: right;
   }
   .main-memory ul li {
     font-size: 1.2rem;
@@ -326,7 +329,7 @@
   }
   .safe-card-1 {
     width: 100%;
-    padding: 1rem;
+    padding: 1.2rem;
   }
   .safe-card-1 img {
     height: 40%;
@@ -452,7 +455,7 @@
   .customer-wrapper h1,
   .wrapper-content h2,
   .applications h2,
-  .memory h1,
+  .memory h2,
   .main-memory ul h2 {
     font-size: 1.5rem !important;
   }
@@ -538,6 +541,8 @@
   }
   .safe-card-1 {
     flex-wrap: wrap;
+    width: 100%;
+    padding: 1rem 0rem;
   }
   .safe-card-1 img {
     height: 25%;
