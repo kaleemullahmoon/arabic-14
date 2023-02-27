@@ -211,9 +211,16 @@
   .main-img img {
     margin-top: 1rem;
   }
+  .program-cards {
+    flex-wrap: wrap;
+  }
+  .p-card-1 {
+    width: 45%;
+  }
   .program h1 {
     font-size: 2rem;
   }
+
   .p-card-1 h3 {
     font-size: 1.2rem;
   }
@@ -411,7 +418,7 @@
     font-size: 1.5rem;
     line-height: 2rem;
   }
-  .main-container div{
+  .main-container div {
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -419,10 +426,17 @@
   }
   .main-btn-1,
   .main-btn-2 {
-    font-size: .8rem !important;
-    margin:0.5rem !important;
+    font-size: 0.8rem !important;
+    margin: 0.5rem !important;
     width: 80%;
     font-weight: 500;
+  }
+  .product-card{
+    /* display: flex; */
+    /* flex-wrap: wrap; */
+  }
+  .p-card-1 {
+    width: 100%;
   }
   .help h1,
   .help h2,
