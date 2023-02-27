@@ -287,7 +287,7 @@
     margin-bottom: 3rem;
   }
   .applications h1 {
-    font-size: 2rem;
+    font-size: 1.5rem;
   }
   .application-cards {
     flex-wrap: wrap;
@@ -451,7 +451,7 @@
   .client-wrapper h2,
   .customer-wrapper h1,
   .wrapper-content h2,
-  .applications h1,
+  .applications h2,
   .memory h1,
   .main-memory ul h2 {
     font-size: 1.5rem !important;
