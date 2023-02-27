@@ -172,6 +172,7 @@ html::-webkit-scrollbar-track {
   padding-top: 3rem;
   align-items: center;
 }
+
 .client-1,
 .client-2,
 .client-3,
@@ -832,7 +833,7 @@ input:checked ~ .accordion-content {
 }
 .help {
   position: relative;
-  padding: 2rem 1.5rem;
+  padding: 3rem 2.2rem;
   overflow: hidden;
 }
 
@@ -845,6 +846,8 @@ input:checked ~ .accordion-content {
   color: var(--orange);
   padding-right: 4.5rem;
   font-size: 1.5rem;
+  font-weight: 500;
+  padding-top: .5rem;
 }
 .help-cards {
   display: flex;
@@ -1150,6 +1153,7 @@ input:checked ~ .accordion-content {
   color: var(--orange);
   font-size: 1.5rem;
   padding-top: 1rem;
+  font-weight: 600;
 }
 
 #client_list {
@@ -1157,6 +1161,7 @@ input:checked ~ .accordion-content {
   display: flex;
   align-items: center;
   width: max-content;
+  padding-top: 1rem;
 }
 .client_item {
   background-color: var(--white);
@@ -1187,14 +1192,19 @@ input:checked ~ .accordion-content {
 .client_icon {
   display: block;
 }
-.client_icon i {
-  color: var(--text);
-}
-.client_icon i:hover {
-  font-weight: 600;
-  color: var(--orange);
+
+.client_card button{
+  /* margin-top: 4rem; */
+  border: none;
+  background-color: var(--white);
+  margin: 2rem 1rem 0 1rem;
+  background-color: var(--orange);
+  padding: .6rem;
+  border-radius: 30px;
+  color: white;
+  font-size: .8rem;
   cursor: pointer;
-}
+ }
 
 /* /////////////////////////////////////////////////// */
 .customer-wrapper {
@@ -1205,7 +1215,7 @@ input:checked ~ .accordion-content {
   overflow: hidden;
 }
 .customer-wrapper h1 {
-  font-size: 2.5rem;
+  font-size: 2rem;
   color: var(--orange);
 }
 .customer-wrapper h4 {
@@ -1223,11 +1233,12 @@ input:checked ~ .accordion-content {
 
 .customer_card_1 {
   background-color: white;
-  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
   padding: 1rem;
   margin: 0.5rem;
   border-radius: 5px;
   width: 18rem;
+  height: 19.5rem;
 }
 .customer_card_1 .person {
   background-color: var(--text);
@@ -1249,6 +1260,10 @@ input:checked ~ .accordion-content {
 }
 .customer_card_1 i {
   color: var(--orange);
+  /* padding: 1rem 0; */
+}
+.card_1_i i{
+margin-top: 1.7rem;
 }
 .customer_card_1 h6 {
   font-size: 1rem;
