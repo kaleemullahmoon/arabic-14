@@ -7,7 +7,6 @@
   margin: 0%;
   box-sizing: border-box;
   font-family: arabic;
-  
 }
 
 :root {
@@ -563,7 +562,7 @@ input:checked ~ .accordion-content {
   position: relative;
   background-image: url("../img/Path\ 2906.png");
   background-repeat: no-repeat;
-  background-position:center;
+  background-position: center;
   background-size: 95% 100%;
   width: 100%;
   display: flex;
@@ -577,7 +576,6 @@ input:checked ~ .accordion-content {
   /* transform-origin: 50% 140%; */
   transform: rotateY(160deg);
   transform-style: preserve-3d;
-
 }
 .order-now div {
   text-align: center;

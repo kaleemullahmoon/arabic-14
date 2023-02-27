@@ -184,6 +184,7 @@
   }
   .main-container {
     width: 100%;
+    padding: 4rem 2rem 1rem 2rem;
   }
   .main-container-img-1 {
     position: absolute;
@@ -203,6 +204,8 @@
   .main-btn-1,
   .main-btn-2 {
     font-size: 1rem !important;
+    margin: 0 0.5rem !important;
+    width: 15rem;
     font-weight: 500;
   }
   .main-img img {
@@ -389,6 +392,37 @@
   }
   .header-wrapper p {
     font-weight: 600;
+  }
+  .main-container {
+    width: 100%;
+  }
+  .main-container-img-1 {
+    position: absolute;
+    top: 140px;
+    left: -30px;
+  }
+  .main-container-img-2 {
+    top: 140px;
+    position: absolute;
+    right: -30px;
+  }
+  .main-container h1 {
+    padding: 0 1rem;
+    font-size: 1.5rem;
+    line-height: 2rem;
+  }
+  .main-container div{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .main-btn-1,
+  .main-btn-2 {
+    font-size: .8rem !important;
+    margin:0.5rem !important;
+    width: 80%;
+    font-weight: 500;
   }
   .help h1,
   .help h2,
