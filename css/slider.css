@@ -153,7 +153,7 @@
 .list button:hover {
   cursor: pointer;
 }
-.item {
+/* .item {
   background-color: var(--white);
   border-radius: 5px;
   overflow: hidden;
@@ -173,7 +173,7 @@
   width: 75%;
   height: 70%;
   margin: 1rem;
-}
+} */
 #list {
   width: max-content;
 }
@@ -215,7 +215,7 @@
     border-radius: 5px;
   }
   .item {
-    width: 100%;
+    /* width: 100%; */
   }
   .direction {
     display: none;
@@ -225,21 +225,21 @@
   .help {
     padding: 2rem 0rem;
   }
-  .item {
+  /* .item {
     margin: 0.8rem 0.5rem;
     height: 16rem;
-  }
+  } */
   .direction {
     display: none;
   }
 }
 @media screen and (max-width: 768px) {
-  .item p {
+  /* .item p {
     padding: 0.1rem 0 1rem;
     font-size: 0.8rem;
     font-weight: bold;
     color: var(--text-light);
-  }
+  } */
   .list button {
     width: 40px;
     padding: 0.5rem;
