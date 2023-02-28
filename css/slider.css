@@ -213,7 +213,7 @@
     height: 100%;
     width: 100%;
     background-size: cover;
-    background-position: 100% 100%; 
+    background-position: 100% 100%;
   }
 
   .card-content h2 {
@@ -240,11 +240,12 @@
   }
 }
 @media screen and (max-width: 768px) {
+  .help {
+    padding: 2rem 0rem;
+  }
   .item {
-    width: 250px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    margin: 0.8rem .5rem;
+    height: 16rem;
   }
   .direction {
     display: none;
