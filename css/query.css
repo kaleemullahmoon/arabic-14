@@ -227,8 +227,28 @@
   .p-card-1 p {
     font-size: 1rem;
   }
+  .clients {
+    padding: 3rem 1.5rem;
+    overflow: hidden;
+  }
+  .client-cards {
+    padding-top: 3rem;
+    flex-wrap: wrap;
+  }
+  .client-1,
+  .client-2,
+  .client-3,
+  .client-4,
+  .client-5,
+  .client-6 {
+    padding: 0.5rem;
+    margin:1rem .5rem;
+  }
   .clients h1 {
     font-size: 2rem;
+  }
+  .accordion-container {
+    padding: 3rem 1rem;
   }
   .accordion-container h1 {
     font-size: 2rem;
@@ -245,6 +265,12 @@
     height: 12px;
     color: var(--white);
   }
+  .blog {
+    padding: 1rem;
+  }
+  .blog-data {
+    padding: 1rem;
+  }
   .blog-data h3 {
     font-size: 2rem;
   }
@@ -253,18 +279,17 @@
   }
   .blog-btns {
     flex-wrap: wrap;
-    padding-top: 0rem;
   }
-  .main-btn-1,
-  .main-btn-2 {
-    margin: 0.5rem 0;
+  .blog-btn-1,
+  .blog-btn-2 {
+    margin: 0.5rem;
   }
   .blog-data {
     width: 100%;
     margin-right: 0;
   }
   .slider-section h1 {
-    font-size: 2rem;
+    font-size: 1.75rem;
   }
   .slider {
     flex-wrap: wrap;
@@ -408,13 +433,13 @@
   .main-container-img-1 {
     position: absolute;
     top: 140px;
-    left: -30px;
+    left: -35px;
     height: 150px;
   }
   .main-container-img-2 {
     top: 140px;
     position: absolute;
-    right: -30px;
+    right: -35px;
     height: 150px;
   }
   .main-container h1 {
@@ -435,7 +460,7 @@
     width: 80%;
     font-weight: 500;
   }
-  .product-card{
+  .product-card {
     /* display: flex; */
     /* flex-wrap: wrap; */
   }

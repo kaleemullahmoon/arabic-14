@@ -56,7 +56,7 @@ jsArrow.onclick = function () {
 
 //////////////////////
 
-var swiper = new Swiper(".slide-contents", {
+var swiper = new Swiper(".slide_contents", {
   slidesPerView: 1,
   spaceBetween: 25,
   loop: true,
