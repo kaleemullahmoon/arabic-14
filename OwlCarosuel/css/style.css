@@ -6,14 +6,13 @@
   --white: #ffffff;
   --black: #000000;
 }
-.container {
+/* .container {
   padding: 2rem 1.5rem;
   text-align: center !important;
   display: flex;
   justify-content: center;
   align-items: center;
-  /* background-color: aquamarine; */
-}
+ }
 .container .item p {
   text-align: center !important;
   font-size: 1.25rem !important;
@@ -30,7 +29,7 @@
   border-radius: 10px;
   color: var(--white);
   font-size: 1.25rem !important;
-}
+} */
 /* //////////////////////////////////////////////// */
 
 .owl_carousel__cards {
@@ -64,4 +63,49 @@
   font-size: 1.25rem;
   color: var(--text-light);
   padding-top: 0.75rem;
+}
+/* /////////////////////////////////////? */
+.owl_carousel__cardss {
+  text-align: center;
+  font-size: 1.75rem;
+}
+.container_page_1 {
+  height: 70vh;
+  position: relative;
+  /* background-color: aqua; */
+}
+.card {
+  margin: 20px !important;
+  height: 15rem !important;
+}
+.card img {
+  width: 100% !important;
+  height: 80%;
+}
+.container h1 {
+  color: var(--blue);
+  font-size: 1.75rem;
+  font-weight: 600;
+}
+.container h2 {
+  color: var(--orange);
+  font-size: 1.5rem;
+  font-weight: 500;
+}
+/* /////////////////////// */
+
+.card-client img{
+    /* display: flex !important; */
+    /* justify-content: center !important; */
+    /* align-items: center !important; */
+    width: 22% !important;
+    height: 22%;
+    margin-right: 100px;
+    margin-top: 20px;
+}
+.card-client p{
+    color: var(--text-light) !important;
+}
+.card-client i{
+    color: var(--orange) !important;    
 }

@@ -1333,7 +1333,7 @@ footer {
 }
 .footer_left_list {
   display: flex;
-  justify-content: space-between;
+  justify-content: space-between !important;
   padding-left: 3rem;
 }
 .footer_left_list {
@@ -1362,7 +1362,7 @@ footer {
 }
 
 .footer-left .footer-icon {
-  background-color: var(--orange);
+  background-color: var(--orange) !important;
   border-radius: 30px;
   padding: 1.5rem;
   width: 2rem;
