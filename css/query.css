@@ -544,6 +544,9 @@
     width: 100%;
     padding: 1rem 0rem;
   }
+  .safe-card-1:hover {
+    box-shadow: none;
+  }
   .safe-card-1 img {
     height: 25%;
     width: 20%;

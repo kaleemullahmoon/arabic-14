@@ -54,7 +54,7 @@ html::-webkit-scrollbar-track {
 .main-container h1 {
   text-align: center;
   padding: 0 20rem;
-  font-size: 2.5rem;
+  font-size: 2rem;
   color: var(--text);
   word-spacing: 0.2rem;
   line-height: 3.5rem;
@@ -442,14 +442,13 @@ input:checked ~ .accordion-content {
 }
 .wrapper-content h2 {
   color: var(--orange);
-  font-size: 2.2rem;
+  font-size: 1.75rem;
   padding-bottom: 1rem;
 }
 .wrapper-content p {
   color: var(--text-light);
-  font-size: 1.2rem;
+  font-size: 1.25rem;
   line-height: 3rem;
-  font-family: "droid arabic kufi";
 }
 .applications {
   position: relative;
@@ -458,7 +457,7 @@ input:checked ~ .accordion-content {
 }
 .applications h2 {
   text-align: center;
-  font-size: 2rem;
+  font-size: 1.75rem;
   color: var(--blue);
 }
 .application-cards {
@@ -482,8 +481,8 @@ input:checked ~ .accordion-content {
 .application-card-1 img,
 .application-card-2 img,
 .application-card-3 img {
-  width: 25%;
-  height: 40%;
+  width: 20%;
+  height: 30%;
 }
 .application-card-1 h3,
 .application-card-2 h3,
@@ -496,8 +495,7 @@ input:checked ~ .accordion-content {
 .application-card-2 p,
 .application-card-3 p {
   color: var(--text-light);
-  font-size: 1.2rem;
-  line-height: 2rem;
+  font-size: 1.25rem;
 }
 .memory {
   padding: 0 3rem;
@@ -505,7 +503,7 @@ input:checked ~ .accordion-content {
 }
 .memory h2 {
   text-align: center;
-  font-size: 2.2rem;
+  font-size: 1.75rem;
   color: var(--orange);
   padding-bottom: 2rem;
 }
@@ -518,14 +516,14 @@ input:checked ~ .accordion-content {
   width: 30%;
 }
 .main-memory ul h2 {
-  font-size: 1.75rem;
+  font-size: 1.5rem;
   padding-bottom: 1.5rem;
-  margin-right: -5rem;
+  margin-right: -6rem;
   color: var(--text);
 }
 .main-memory ul li {
   padding-bottom: 1rem;
-  font-size: 1.5rem;
+  font-size: 1.25rem;
   line-height: 2rem;
   color: var(--text-light);
 }
@@ -548,17 +546,17 @@ input:checked ~ .accordion-content {
   box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
 }
 .safe-card-1 img {
-  height: 22%;
-  width: 12%;
+  height: 20%;
+  width: 15%;
   margin-left: 1rem;
 }
 .safe-card-1 div h1 {
-  font-size: 1.75rem;
+  font-size: 1.5rem;
   color: var(--text);
   padding-bottom: 0.5rem;
 }
 .safe-card-1 div P {
-  font-size: 1.3rem;
+  font-size: 1.25rem;
   line-height: 2rem;
   color: var(--text-light);
 }
@@ -576,8 +574,6 @@ input:checked ~ .accordion-content {
 }
 .order-now img {
   width: 35%;
-  /* transform: rotate(50deg); */
-  /* transform-origin: 50% 140%; */
   transform: rotateY(160deg);
   transform-style: preserve-3d;
 }
@@ -588,17 +584,17 @@ input:checked ~ .accordion-content {
 .order-now div button {
   background-color: white;
   border: none;
-  padding: 1rem 4rem;
+  padding: 0.75rem 3rem;
   margin-top: 2rem;
   border-radius: 5px;
-  font-size: 1.5rem;
+  font-size: 1.25rem;
 }
 .order-now div button:hover {
   background-color: var(--blue);
   color: var(--white);
 }
 .order-now div p {
-  font-size: 1.75rem;
+  font-size: 1.5rem;
   line-height: 2.5rem;
   text-align: center;
   padding: 0 2rem;
@@ -614,7 +610,7 @@ input:checked ~ .accordion-content {
 }
 .business h2 {
   text-align: center;
-  font-size: 2.2rem;
+  font-size: 1.75rem;
   color: var(--blue);
 }
 .business-cards {
@@ -642,17 +638,24 @@ input:checked ~ .accordion-content {
 }
 .business_card div h2 {
   color: var(--text);
-  font-size: 1.25rem;
+  font-size: 1rem;
   font-weight: bold;
+  font-weight: 600;
 }
 .business_card div p {
   color: var(--text);
   font-weight: bold;
   padding: 0.5rem 0;
+  font-size: 1rem;
+  font-weight: 500;
 }
 .business_card div i {
   color: var(--text);
-  font-weight: bold;
+  /* font-weight: bold; */
+}
+.business_card div i:hover {
+  color: var(--orange);
+  cursor: pointer;
 }
 
 .techniques {
@@ -661,7 +664,7 @@ input:checked ~ .accordion-content {
 }
 .techniques h2 {
   text-align: center;
-  font-size: 2.2rem;
+  font-size: 1.75rem;
   color: var(--blue);
 }
 .techniques-cards {
@@ -680,7 +683,7 @@ input:checked ~ .accordion-content {
 .techniques-card-1 img,
 .techniques-card-2 img,
 .techniques-card-3 img {
-  height: 30%;
+  height: 15%;
 }
 .techniques-card-1 h3,
 .techniques-card-2 h3,
@@ -692,9 +695,9 @@ input:checked ~ .accordion-content {
 .techniques-card-1 p,
 .techniques-card-2 p,
 .techniques-card-3 p {
-  font-size: 1.1rem;
+  font-size: 1.25rem;
   line-height: 2rem;
-  color: var(--text);
+  color: var(--text-light);
 }
 .techniques-card-1:hover,
 .techniques-card-2:hover,
@@ -713,9 +716,29 @@ input:checked ~ .accordion-content {
   margin: 0 1rem;
   padding: 2rem;
   width: 100%;
+  height: 9rem;
   background-color: white;
   box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px,
     rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.wrapper_client_bg_1 {
+  background-image: url("../img/DHL.png");
+  background-size: 70% 60%;
+}
+.wrapper_client_bg_2 {
+  background-image: url("../img/SMSA.png");
+  background-size: 70% 60%;
+}
+.wrapper_client_bg_3 {
+  background-image: url("../img/زاجل.png");
+  background-size: 40% 60%;
+}
+.wrapper_client_bg_4 {
+  background-image: url("../img/ناقل.png");
+  background-size: 70% 60%;
 }
 .main-offers {
   position: relative;
@@ -730,17 +753,17 @@ input:checked ~ .accordion-content {
   text-align: center;
 }
 .main_offer h1 {
-  font-size: 2.5rem;
+  font-size: 1.75rem;
   color: var(--orange);
 }
 .main_offer p {
   padding: 2rem 0;
-  font-size: 1.3rem;
+  font-size: 1.25rem;
   color: var(--text);
 }
 .main_offer button {
   background-color: var(--blue);
-  padding: 1rem 4rem;
+  padding: 0.8rem 3rem;
   border-radius: 5px;
   border: none;
   color: white;
@@ -748,7 +771,8 @@ input:checked ~ .accordion-content {
 }
 .main_offer button:hover {
   background-color: var(--orange);
-  font-size: 1.3rem;
+  font-size: 1.25rem;
+  cursor: pointer;
 }
 /* /////////////////////////////////////////////////////////////////////////////////////////// */
 /* /////////////////////////////////////////////////////////////////////////////////////////// */
@@ -769,7 +793,6 @@ input:checked ~ .accordion-content {
   flex-direction: column;
   flex-basis: 50px;
   z-index: 99;
-  /* background-color: #000000; */
 }
 .header_wrapper_slider i {
   font-size: 14px;
@@ -803,30 +826,31 @@ input:checked ~ .accordion-content {
 .header-wrapper div {
   width: 40%;
 }
-.header-wrapper h2 {
+.header-wrapper div h2 {
   background-color: var(--blue);
   color: white;
   display: inline;
   padding: 0.3rem 2rem;
+  font-size: 1.5rem;
 }
 .header-wrapper h1 {
   color: var(--orange);
   line-height: 3rem;
   padding: 1rem 0;
-  font-size: 2rem;
+  font-size: 1.75rem;
 }
-.header-wrapper p {
+.header-wrapper div p {
   line-height: 2.5rem;
   color: var(--blue);
-  font-size: 1.5rem;
+  font-size: 1.25rem;
 }
-.header-wrapper button {
+.header-wrapper div button {
   border: 2px solid var(--orange);
   background-color: white;
   color: var(--orange);
   padding: 0.3rem 1.5rem;
   text-decoration: none;
-  font-size: 1.75rem;
+  font-size: 1.5rem;
   margin-top: 1rem;
   cursor: pointer;
 }
@@ -842,7 +866,7 @@ input:checked ~ .accordion-content {
 
 .help h1 {
   color: var(--blue);
-  font-size: 2.5rem;
+  font-size: 1.75rem;
   padding-right: 4.5rem;
 }
 .help h2 {
@@ -850,7 +874,7 @@ input:checked ~ .accordion-content {
   padding-right: 4.5rem;
   font-size: 1.5rem;
   font-weight: 500;
-  padding-top: .5rem;
+  padding-top: 0.5rem;
 }
 .help-cards {
   display: flex;
@@ -915,7 +939,7 @@ input:checked ~ .accordion-content {
 
 .product_right h1 {
   color: var(--blue);
-  font-size: 2.5rem;
+  font-size: 1.75rem;
   padding-right: 4.5rem;
 }
 .product_right h2 {
@@ -923,6 +947,7 @@ input:checked ~ .accordion-content {
   font-size: 1.5rem;
   padding-top: 0.5rem;
   padding-right: 4.5rem;
+  font-weight: 500;
 }
 .product_left {
   width: 100%;
@@ -1027,7 +1052,7 @@ input:checked ~ .accordion-content {
 }
 .setting-content h1 {
   color: var(--blue);
-  font-size: 2.5rem;
+  font-size: 1.75rem;
 }
 .setting-content h2 {
   color: var(--orange);
@@ -1035,19 +1060,19 @@ input:checked ~ .accordion-content {
   padding: 0.75rem 0;
 }
 .setting-content h3 {
-  font-size: 1.5rem;
+  font-size: 1.25rem;
   color: var(--text);
 }
 .setting-content p {
   padding: 0.75rem 0;
-  font-size: 1.5rem;
+  font-size: 1.25rem;
   line-height: 2.5rem;
   color: var(--text);
 }
 .setting-content button {
   border: none;
   background-color: white;
-  font-size: 1.5rem;
+  font-size: 1.25rem;
   color: var(--orange);
   border-bottom: 1px solid var(--orange);
   cursor: pointer;
@@ -1068,11 +1093,11 @@ input:checked ~ .accordion-content {
 }
 .development-content h1 {
   color: var(--blue);
-  font-size: 2.5rem;
+  font-size: 1.75rem;
 }
 .development-content p {
   padding: 1rem 0;
-  font-size: 1.5rem;
+  font-size: 1.25rem;
   line-height: 2.5rem;
   font-weight: 500;
   color: var(--text);
@@ -1097,7 +1122,7 @@ input:checked ~ .accordion-content {
 .selection-wrapper h1 {
   text-align: center;
   color: var(--orange);
-  font-size: 2.5rem;
+  font-size: 1.75rem;
 }
 .selection-card {
   display: flex;
@@ -1111,8 +1136,6 @@ input:checked ~ .accordion-content {
   border-radius: 5px;
 }
 .selection_card_1 {
-  /* background-color: white; */
-  /* filter: drop-shadow(0px 0px 12.5px rgba(0,0,0,0.16 )); */
   text-align: center;
   padding: 2rem;
   margin: 1rem;
@@ -1149,12 +1172,12 @@ input:checked ~ .accordion-content {
 }
 .client-wrapper h1 {
   color: var(--blue);
-  font-size: 2rem;
+  font-size: 1.75rem;
   font-weight: bold;
 }
 .client-wrapper h2 {
   color: var(--orange);
-  font-size: 1.5rem;
+  font-size: 1.25rem;
   padding-top: 1rem;
   font-weight: 600;
 }
@@ -1196,18 +1219,18 @@ input:checked ~ .accordion-content {
   display: block;
 }
 
-.client_card button{
+.client_card button {
   /* margin-top: 4rem; */
   border: none;
   background-color: var(--white);
   margin: 2rem 1rem 0 1rem;
   background-color: var(--orange);
-  padding: .6rem;
+  padding: 0.6rem;
   border-radius: 30px;
   color: white;
-  font-size: .8rem;
+  font-size: 0.8rem;
   cursor: pointer;
- }
+}
 
 /* /////////////////////////////////////////////////// */
 .customer-wrapper {
@@ -1218,11 +1241,11 @@ input:checked ~ .accordion-content {
   overflow: hidden;
 }
 .customer-wrapper h1 {
-  font-size: 2rem;
+  font-size: 1.75rem;
   color: var(--orange);
 }
 .customer-wrapper h4 {
-  font-size: 1.5rem;
+  font-size: 1.25rem;
   color: var(--blue);
   padding: 0.75rem 0;
 }
@@ -1240,7 +1263,7 @@ input:checked ~ .accordion-content {
   padding: 1rem;
   margin: 0.5rem;
   border-radius: 5px;
-  width: 18rem;
+  width: 17rem;
   height: 19.5rem;
 }
 .customer_card_1 .person {
@@ -1265,8 +1288,8 @@ input:checked ~ .accordion-content {
   color: var(--orange);
   /* padding: 1rem 0; */
 }
-.card_1_i i{
-margin-top: 1.7rem;
+.card_1_i i {
+  margin-top: 1.7rem;
 }
 .customer_card_1 h6 {
   font-size: 1rem;
@@ -1294,13 +1317,13 @@ footer {
 }
 .footer-right p {
   color: var(--text);
-  font-size: 1.3rem;
+  font-size: 1.25rem;
   line-height: 2.4rem;
   padding: 1rem 0;
 }
 .footer-right h3 {
   color: var(--text);
-  font-size: 1.5rem;
+  font-size: 1.25rem;
   padding: 1rem 0;
 }
 .footer-left {
@@ -1318,20 +1341,22 @@ footer {
 .footer_left_list ul .first-li {
   color: black !important;
   font-weight: bold;
-  font-size: 1.7rem;
+  font-size: 1.25rem;
 }
 .footer_left_list ul li {
   list-style: none;
   padding: 0.2rem 0;
   color: var(--text);
-  font-size: 1.3rem;
+  font-size: 1.25rem;
 }
+
 .footer-left div i {
   background-color: var(--orange);
   color: white;
-  padding: 0.8rem 1rem;
-  border-radius: 50px;
-  margin: 1.5rem 0.2rem 0 0.2rem;
+  padding: 12px 15px;
+  border-radius: 50%;
+  margin: 1.5rem 0rem 1rem 0.5rem;
+  font-size: 1.25rem;
 }
 
 /* /////////////////////////////////////////////////// */

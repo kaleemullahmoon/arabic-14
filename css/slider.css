@@ -168,10 +168,10 @@
   overflow: hidden;
   transition: 0.5s;
   margin: .8rem 1rem;
-  width: 16.5rem;
+  width: 15.5rem;
   height: 16rem;
   scroll-snap-align: start;
-  box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
 }
 .item p {
   padding: 0.1rem 0 1rem;
