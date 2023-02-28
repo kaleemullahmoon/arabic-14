@@ -154,8 +154,8 @@ html::-webkit-scrollbar-track {
   color: white;
   border: none;
 }
-.blog-btn-2 i{
-  padding-right: .5rem;
+.blog-btn-2 i {
+  padding-right: 0.5rem;
 }
 /* ///////////////////////////////////////// */
 .clients {
@@ -398,7 +398,6 @@ input:checked ~ .accordion-content {
 }
 .footer-ul-3 p {
   width: 667px;
-  font-family: "droid arabic kufi";
   font-size: 25px;
   font-weight: 400;
   line-height: 35px;
@@ -1265,7 +1264,7 @@ input:checked ~ .accordion-content {
   padding: 1rem;
   margin: 0.5rem;
   border-radius: 5px;
-  width: 17rem;
+  width: 17rem !important;
   height: 19.5rem;
 }
 .customer_card_1 .person {
@@ -1344,21 +1343,36 @@ footer {
   color: black !important;
   font-weight: bold;
   font-size: 1.25rem;
+  font-family: arabic;
 }
+
 .footer_left_list ul li {
   list-style: none;
   padding: 0.2rem 0;
   color: var(--text);
   font-size: 1.25rem;
+  font-family: arabic;
 }
 
-.footer-left div i {
+.footer-left div {
+  display: flex;
+  justify-content: center !important;
+  align-items: center !important;
+  margin-left: 6rem;
+}
+
+.footer-left .footer-icon {
   background-color: var(--orange);
-  color: white;
-  padding: 12px 15px;
-  border-radius: 50%;
-  margin: 1.5rem 0rem 1rem 0.5rem;
+  border-radius: 30px;
+  padding: 1.5rem;
+  width: 2rem;
+  height: 2rem;
+  text-align: center;
+  margin: 1rem 0.5rem 0 0.5rem;
+}
+.footer-left .footer-icon i {
   font-size: 1.25rem;
+  color: var(--white);
 }
 
 /* /////////////////////////////////////////////////// */

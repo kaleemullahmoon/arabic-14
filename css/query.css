@@ -148,6 +148,11 @@
   .development-image img {
     width: 100%;
   }
+  .selection_card_1 {
+    padding: 2rem 0;
+    margin: 1rem;
+    width: 25rem;
+  }
   .selection-card {
     flex-wrap: wrap;
   }
@@ -155,6 +160,7 @@
     flex-wrap: wrap;
     padding: 1rem;
   }
+  /* ////////////////////////// */
   .footer-right,
   .footer-left {
     width: 100% !important;
@@ -174,13 +180,6 @@
   }
   .footer-left div {
     width: 100%;
-  }
-  .footer-left div i {
-    padding: 0.4rem 0.6rem;
-    border-radius: 50px;
-    margin: 1.5rem 0.2rem 0 0.2rem;
-    text-align: center;
-    align-items: center;
   }
   .main-container {
     width: 100%;
@@ -242,7 +241,7 @@
   .client-5,
   .client-6 {
     padding: 0.5rem;
-    margin:1rem .5rem;
+    margin: 1rem 0.5rem;
   }
   .clients h1 {
     font-size: 2rem;
@@ -494,6 +493,13 @@
     font-weight: 600;
     color: var(--text-light);
   }
+  .customer-wrapper {
+    position: relative;
+    padding: 3rem 0.5rem;
+    background-color: #f8f8ff;
+    text-align: center;
+    overflow: hidden;
+  }
   .setting-content button {
     margin-bottom: 2rem;
   }
@@ -651,4 +657,18 @@
     padding-bottom: 1rem;
     color: var(--text);
   }
+  .footer-left .footer-icon {
+    background-color: var(--orange);
+    border-radius: 30px;
+    padding: 1.2rem;
+    width: 2rem;
+    height: 2rem;
+    text-align: center;
+    margin: 1rem 0.5rem 0 0.5rem;
+  }
+  .footer-left .footer-icon i {
+    font-size: 1rem;
+    color: var(--white);
+  }
+  
 }
