@@ -109,13 +109,30 @@
 .card-client i {
   color: var(--orange) !important;
 }
-/* /////////////////////////////////////? */
-.client_card {
-  height: 30vh !important;
+/* ///////////header cards//////////////////////////? */
+.header_card{
   background-size: contain;
   background-repeat: no-repeat;
   background-position: center;
   background-size: 90% 90%;
+  height: 80%;
+}
+.header_card_2{
+  background-image: url('../../img/new-notificatio.png');
+}
+.header_card_3{
+  background-image: url('../../img/mobile-developm.png');
+}
+.header_card_4{
+  background-image: url('../../img/browsing-online.png');
+}
+.header_card_5{
+  background-image: url('../../img/programming-ani.png');
+}
+/* ///////////header cards//////////////////////////? */
+/* /////////////client card////////////////////////? */
+.client_card {
+  height: 30vh !important;
 }
 .client_card_1 {
   background-image: url("../../img/client1.png");
@@ -144,3 +161,4 @@
   font-weight: 600;
 
 }
+/* /////////////client card////////////////////////? */
