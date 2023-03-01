@@ -36,4 +36,3 @@ navSlide();
     this.parentNode.parentNode.classList.toggle('closed')
   }, false);
 })();
-

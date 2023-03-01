@@ -1,0 +1,110 @@
+/* @import url('https://fonts.googleapis.com/css2?family=Noto+Sans+HK&display=swap'); */
+@font-face {
+  font-family: arabic;
+  src: url(../../fonts/regular.ttf);
+}
+@font-face {
+  font-family: arabic-bold;
+  src: url(../../fonts/bold.ttf);
+}
+:root {
+  --text: #595c5d;
+  --text-light: #9494a3;
+  --orange: #ff9966;
+  --blue: #1aa39b;
+  --white: #ffffff;
+  --black: #000000;
+}
+html {
+  scroll-behavior: smooth;
+}
+
+.slider {
+  margin-bottom: 30px;
+  position: relative;
+}
+.slider .owl-item.active.center .slider-card {
+  transform: scale(1.15);
+  opacity: 1;
+  background: #ff9966; /* fallback for old browsers */
+  background: -webkit-linear-gradient(to bottom, #ff5e62, #ff9966); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to bottom, #ff5e62, #ff9966); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  color: #fff;
+}
+.slider-card {
+  background: #fff;
+  padding: 0px 0px;
+  margin: 50px 15px 90px 15px;
+  border-radius: 5px;
+  box-shadow: 0 15px 45px -20px rgb(0 0 0 / 73%);
+  transform: scale(0.9);
+  opacity: 0.5;
+  transition: all 0.3s;
+}
+.slider-card img {
+  border-radius: 5px 5px 0px 0px;
+}
+.owl-nav .owl-prev {
+  position: absolute;
+  top: calc(50% - 25px);
+  left: 0px;
+  opacity: 1;
+  font-size: 30px !important;
+  z-index: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 2.5rem;
+  height: 2.5rem;
+  color: #ff9966 !important;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  border-radius: 30px;
+  border: 1px solid #ff9966 !important;
+}
+.owl-nav .owl-next {
+  position: absolute;
+  top: calc(50% - 25px);
+  right: 0px;
+  opacity: 1;
+  font-size: 30px !important;
+  z-index: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 2.5rem;
+  height: 2.5rem;
+  color: #ff9966 !important;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  border-radius: 30px;
+  border: 1px solid #ff9966 !important;
+}
+.owl-dots {
+  /* display:none; */
+  text-align: center;
+}
+.owl-dots .owl-dot {
+  height: 10px;
+  width: 10px;
+  border-radius: 10px;
+  background: #ccc !important;
+  margin-left: 3px;
+  margin-right: 3px;
+  outline: none;
+}
+.owl-dots .owl-dot.active {
+  background: #ff9966 !important;
+}
+
+
+/* ////////////////////////////////? */
+.main-sec-2 h1{
+  font-family: arabic-bold;
+  color: var(--blue);
+  font-size: 1.75rem !important;
+}
+.main-sec-2 h2{
+  font-family: arabi;
+  color: var(--orange);
+  font-size: 1.5rem;
+  font-weight: 400;
+}

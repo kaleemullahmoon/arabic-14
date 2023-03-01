@@ -2,11 +2,15 @@
   font-family: arabic;
   src: url(../fonts/regular.ttf);
 }
+@font-face {
+  font-family: arabic-bold;
+  src: url(../fonts/bold.ttf);
+}
 * {
   padding: 0%;
   margin: 0%;
   box-sizing: border-box;
-  font-family: arabic;
+  /* font-family: arabic; */
 }
 
 :root {
@@ -60,6 +64,8 @@ html::-webkit-scrollbar-track {
   color: var(--text);
   word-spacing: 0.2rem;
   line-height: 3.5rem;
+  font-family: arabic-bold;
+  font-weight: bold !important;
 }
 .main-container div {
   display: flex;
@@ -786,8 +792,9 @@ input:checked ~ .accordion-content {
   display: flex;
   justify-content: space-evenly;
   align-items: center;
-  padding: 3rem 1.5rem;
+  padding: 1.5rem;
   overflow: hidden;
+  background-color: wheat;
 }
 .header_wrapper_slider {
   display: flex;
@@ -833,17 +840,21 @@ input:checked ~ .accordion-content {
   display: inline;
   padding: 0.3rem 2rem;
   font-size: 1.5rem;
+  font-family: arabic-bold;
 }
 .header-wrapper h1 {
   color: var(--orange);
   line-height: 3rem;
-  padding: 1rem 0;
+  margin: 1rem 0;
   font-size: 1.75rem;
+  font-family: arabic-bold;
 }
 .header-wrapper div p {
-  line-height: 2.5rem;
+  line-height: 49px;
   color: var(--blue);
   font-size: 1.25rem;
+  font-family: arabic;
+  font-weight: 400;
 }
 .header-wrapper div button {
   border: 2px solid var(--orange);
@@ -852,13 +863,15 @@ input:checked ~ .accordion-content {
   padding: 0.3rem 1.5rem;
   text-decoration: none;
   font-size: 1.5rem;
-  margin-top: 1rem;
   cursor: pointer;
+  font-family: arabic;
 }
 .header-wrapper button:hover {
   background-color: var(--orange);
   color: var(--white);
 }
+/* ///////////////////////////////////////////////// */
+
 .help {
   position: relative;
   padding: 3rem 2.2rem;
@@ -903,142 +916,57 @@ input:checked ~ .accordion-content {
 /* ///////////////////////////////////////////////////////////// */
 
 .product {
-  display: flex;
-  justify-content: space-between;
-  padding: 2rem 1.5rem;
+  padding: 2rem 3rem;
   overflow: hidden;
 }
-.product_left_mobile {
-  display: none;
-}
-.product_right {
-  width: 30%;
-  /* background-color:wheat; */
-}
-/* 
-.product_right_card{
-  box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
-  padding: 1rem;
-  background-color: #1aa39b !important;
-  border-radius: 10px;
-  width: 30%;
-  margin: 0 0.5rem;
-  height: 250px; 
-}
-.product_right_card img {
-  width: 80%;
-  height: 60%;
-}
 
-.product_right .product_right_card h2 {
-  font-size: 1.2rem;
-  color: var(--text);
-  padding-top: 2rem;
-  margin-top: 1rem;
-  font-weight: 500;
-} */
-
-.product_right h1 {
+.product h1 {
   color: var(--blue);
   font-size: 1.75rem;
-  padding-right: 4.5rem;
+  font-family: arabic-bold;
 }
-.product_right h2 {
+.product h2 {
   color: var(--orange);
   font-size: 1.5rem;
-  padding-top: 0.5rem;
-  padding-right: 4.5rem;
-  font-weight: 500;
+  padding-top: 0.25rem;
+  font-weight: 400;
+  font-family: arabic;
 }
-.product_left {
-  width: 100%;
+.product_cards {
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
   flex-wrap: wrap;
-  text-align: center;
-  padding: 1rem 0;
 }
-.product_top {
-  display: flex;
-  justify-content: space-between;
+
+.product_card img {
   width: 100%;
-  margin: 0 2rem;
-}
-.product_card_1 {
-  height: 300px !important;
-}
-.product_card_2 {
-  height: 300px !important;
-}
-.product_card_3 {
-  height: 300px !important;
-}
-
-.product_card_1 img,
-.product_card_2 img,
-.product_card_3 img,
-.product_card_4 img,
-.product_card_5 img,
-.product_card_6 img,
-.product_card_7 img {
-  width: 80%;
   height: 60%;
+  object-fit: contain;
 }
 
-.product_card_1 h2,
-.product_card_2 h2,
-.product_card_3 h2,
-.product_card_4 h2,
-.product_card_5 h2,
-.product_card_6 h2,
-.product_card_7 h2 {
-  font-size: 1.2rem;
+.product_card h2 {
+  font-size: 1rem;
   color: var(--text);
   padding-top: 2rem;
   margin-top: 1rem;
-  font-weight: 500;
+  font-family: arabic-bold;
+  text-align: center;
 }
-.product_card_1,
-.product_card_2,
-.product_card_3,
-.product_card_4,
-.product_card_5,
-.product_card_6,
-.product_card_7 {
+.product_card {
   box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
   padding: 1rem;
   border-radius: 10px;
-  width: 30%;
-  margin: 0 0.5rem;
+  width: 22%;
+  margin: 1rem;
   height: 250px;
 }
-.product_card_2 {
-  margin-top: 4rem;
-}
-.product_card_7 {
-  position: absolute;
-  margin-right: -325px;
-  margin-top: -100px;
-  /* background-color: yellowgreen; */
-}
-.product_bottom {
-  display: flex;
-  justify-content: space-between;
-  margin: 0 2rem;
-  width: 100%;
-  margin-top: 2rem;
-}
 
-.product_card_4,
-.product_card_6 {
-  margin-top: -4rem;
-}
 /* ////////////////////////////////////////////////// */
 .setting-wrapper {
   display: flex;
   justify-content: space-around;
   align-items: center;
-  padding: 3rem;
+  padding: 2rem 1.5rem;
   background-image: url("../img/Ellipse\ 31.png");
   background-repeat: no-repeat;
   background-size: 175% 125%;
@@ -1054,25 +982,30 @@ input:checked ~ .accordion-content {
 .setting-content h1 {
   color: var(--blue);
   font-size: 1.75rem;
+  font-family: arabic-bold;
 }
 .setting-content h2 {
   color: var(--orange);
   font-size: 1.5rem;
   padding: 0.75rem 0;
+  font-family: arabic;
 }
 .setting-content h3 {
   font-size: 1.25rem;
   color: var(--text);
+  font-family: arabic-bold;
 }
 .setting-content p {
   padding: 0.75rem 0;
   font-size: 1.25rem;
   line-height: 2.5rem;
-  color: var(--text);
+  color: var(--text-light);
+  font-family: arabic;
+  font-weight: 400;
 }
 .setting-content button {
   border: none;
-  background-color: white;
+  background-color: #F8F8FF;
   font-size: 1.25rem;
   color: var(--orange);
   border-bottom: 1px solid var(--orange);
@@ -1095,13 +1028,15 @@ input:checked ~ .accordion-content {
 .development-content h1 {
   color: var(--blue);
   font-size: 1.75rem;
+  font-family: arabic-bold;
 }
 .development-content p {
   padding: 1rem 0;
   font-size: 1.25rem;
-  line-height: 2.5rem;
-  font-weight: 500;
+  line-height: 35px;
+  font-weight: 400;
   color: var(--text);
+  font-family: arabic;
 }
 .development-content button {
   border: none;
@@ -1124,10 +1059,11 @@ input:checked ~ .accordion-content {
   text-align: center;
   color: var(--orange);
   font-size: 1.75rem;
+  font-family: arabic-bold;
 }
 .selection-card {
   display: flex;
-  justify-content: center;
+  justify-content: space-evenly;
   flex-wrap: wrap;
   margin-top: 2rem;
 }
@@ -1141,6 +1077,7 @@ input:checked ~ .accordion-content {
   padding: 2rem;
   margin: 1rem;
   width: 25rem;
+  /* background-color: pink; */
 }
 .selection_card_1 img {
   background-color: var(--orange);
@@ -1155,14 +1092,19 @@ input:checked ~ .accordion-content {
   padding: 1rem 0;
 }
 .selection_card_1 div h2 {
-  font-size: 1.1rem;
+  font-size: 1rem;
   color: var(--orange);
+  font-weight: bold;
+  font-family: arabic;
+  margin-top: .5rem;
 }
 .selection_card_1 p {
   color: var(--text);
-  font-size: 1.1rem;
+  font-size: 1rem;
+  font-family: arabic;
   line-height: 1.75rem;
-  /* font-weight: 600; */
+  font-weight: 400;
+  font-family: arabic;
 }
 /* /////////////////////////////////////////////////// */
 .client-wrapper {
@@ -1244,11 +1186,14 @@ input:checked ~ .accordion-content {
 .customer-wrapper h1 {
   font-size: 1.75rem;
   color: var(--orange);
+  font-family: arabic-bold;
 }
-.customer-wrapper h4 {
+.customer-wrapper p {
   font-size: 1.25rem;
   color: var(--blue);
   padding: 0.75rem 0;
+  font-family: arabic;
+  font-weight: 400;
 }
 .customer-card {
   display: flex;
