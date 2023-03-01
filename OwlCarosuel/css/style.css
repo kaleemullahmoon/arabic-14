@@ -94,18 +94,53 @@
 }
 /* /////////////////////// */
 
-.card-client img{
-    /* display: flex !important; */
-    /* justify-content: center !important; */
-    /* align-items: center !important; */
-    width: 22% !important;
-    height: 22%;
-    margin-right: 100px;
-    margin-top: 20px;
+.card-client img {
+  /* display: flex !important; */
+  /* justify-content: center !important; */
+  /* align-items: center !important; */
+  width: 22% !important;
+  height: 22%;
+  margin-right: 100px;
+  margin-top: 20px;
 }
-.card-client p{
-    color: var(--text-light) !important;
+.card-client p {
+  color: var(--text-light) !important;
 }
-.card-client i{
-    color: var(--orange) !important;    
+.card-client i {
+  color: var(--orange) !important;
+}
+/* /////////////////////////////////////? */
+.client_card {
+  height: 30vh !important;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 90% 90%;
+}
+.client_card_1 {
+  background-image: url("../../img/client1.png");
+}
+.client_card_2 {
+  background-image: url("../../img/client6.png");
+}
+.client_card_3 {
+  background-image: url("../../img/client3.png");
+}
+.client_card_4 {
+  background-image: url("../../img/client4.png");
+}
+.client_card_5 {
+  background-image: url("../../img/client5.png");
+}
+.client_card_6 {
+  flex-direction: column;
+  background-image: url("../../img/client6.png");
+}
+.flex{
+  /* display: flex; */
+  /* flex-wrap: wrap; */
+}
+.customer-wrapper h1, .customer-wrapper h4{
+  font-weight: 600;
+
 }

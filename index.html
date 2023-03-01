@@ -121,6 +121,10 @@
       </p>
     </nav>
 
+    <!-- ///////////////////////// -->
+
+    <!-- ///////////////////////// -->
+
     <!-- section one -->
     <section class="header-wrapper">
       <img src="./img/Path 3.png" alt="" class="eclip-left" />
@@ -407,37 +411,64 @@
     <section class="client-wrapper">
       <h1>عملاء تشرفنا بخدمتهم</h1>
       <h2>كن انت التالى وانضم لنا</h2>
-
       <div class="owl-carousel owl-theme" id="three">
         <div class="item">
-          <div class="card">
-            <img src="./img/client1.png" class="card-img-top" alt="..." />
-          </div>
+          <div class="card client_card client_card_1"></div>
         </div>
         <div class="item">
-          <div class="card">
-            <img src="./img/client1.png" class="card-img-top" alt="..." />
-          </div>
+          <div class="card client_card client_card_2"></div>
         </div>
         <div class="item">
-          <div class="card">
-            <img src="./img/client1.png" class="card-img-top" alt="..." />
-          </div>
+          <div class="card client_card client_card_3"></div>
         </div>
         <div class="item">
-          <div class="card">
-            <img src="./img/client1.png" class="card-img-top" alt="..." />
-          </div>
+          <div class="card client_card client_card_4"></div>
         </div>
         <div class="item">
-          <div class="card">
-            <img src="./img/client1.png" class="card-img-top" alt="..." />
-          </div>
+          <div class="card client_card client_card_5"></div>
         </div>
         <div class="item">
-          <div class="card">
-            <img src="./img/client1.png" class="card-img-top" alt="..." />
-          </div>
+          <div class="card client_card client_card_6"></div>
+        </div>
+      </div>
+      <div class="owl-carousel owl-theme" id="four">
+        <div class="item">
+          <div class="card client_card client_card_1"></div>
+        </div>
+        <div class="item">
+          <div class="card client_card client_card_2"></div>
+        </div>
+        <div class="item">
+          <div class="card client_card client_card_3"></div>
+        </div>
+        <div class="item">
+          <div class="card client_card client_card_4"></div>
+        </div>
+        <div class="item">
+          <div class="card client_card client_card_5"></div>
+        </div>
+        <div class="item">
+          <div class="card client_card client_card_6"></div>
+        </div>
+      </div>
+      <div class="owl-carousel owl-theme" id="five">
+        <div class="item">
+          <div class="card client_card client_card_1"></div>
+        </div>
+        <div class="item">
+          <div class="card client_card client_card_2"></div>
+        </div>
+        <div class="item">
+          <div class="card client_card client_card_3"></div>
+        </div>
+        <div class="item">
+          <div class="card client_card client_card_4"></div>
+        </div>
+        <div class="item">
+          <div class="card client_card client_card_5"></div>
+        </div>
+        <div class="item">
+          <div class="card client_card client_card_6"></div>
         </div>
       </div>
     </section>
@@ -604,6 +635,8 @@
         var one = $("#one");
         var two = $("#two");
         var three = $("#three");
+        var four = $("#four");
+        var five = $("#five");
 
         one.owlCarousel({
           margin: 10,
@@ -641,6 +674,42 @@
           },
         });
         three.owlCarousel({
+          responsiveClass: true,
+          animateIn: "fadeIn",
+          animateOut: "fadeOut",
+          margin: 5,
+          dot: false,
+          responsive: {
+            0: {
+              items: 2,
+            },
+            600: {
+              items: 3,
+            },
+            1000: {
+              items: 6,
+            },
+          },
+        });
+        four.owlCarousel({
+          responsiveClass: true,
+          animateIn: "fadeIn",
+          animateOut: "fadeOut",
+          margin: 5,
+          dot: false,
+          responsive: {
+            0: {
+              items: 2,
+            },
+            600: {
+              items: 3,
+            },
+            1000: {
+              items: 6,
+            },
+          },
+        });
+        five.owlCarousel({
           responsiveClass: true,
           animateIn: "fadeIn",
           animateOut: "fadeOut",
