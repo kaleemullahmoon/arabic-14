@@ -4,6 +4,7 @@ $(document).ready(function () {
   var three = $("#three");
   var four = $("#four");
   var five = $("#five");
+  var six = $("#six");
   one.owlCarousel({
     // loop: true,
     margin: 10,
@@ -76,31 +77,61 @@ $(document).ready(function () {
     dot: false,
     responsive: {
       0: {
-        items: 2,
+        items: 1,
       },
       600: {
-        items: 3,
+        items: 1,
       },
       1000: {
-        items: 6,
+        items: 1,
       },
     },
   });
   five.owlCarousel({
-    responsiveClass: true,
-    animateIn: "fadeIn",
-    animateOut: "fadeOut",
+    // loop: true,
     margin: 5,
-    dot: false,
+    nav: true,
+    autoplay: true,
+    autoplayTimeout: 3000,
+    autoplayHoverPause: true,
+    center: true,
+    navText: [
+      "<i class='fa fa-angle-left'></i>",
+      "<i class='fa fa-angle-right'></i>",
+    ],
     responsive: {
       0: {
-        items: 2,
+        items: 1,
       },
       600: {
-        items: 3,
+        items: 2,
       },
       1000: {
-        items: 6,
+        items: 5,
+      },
+    },
+  });
+  six.owlCarousel({
+    // loop: true,
+    margin: 5,
+    nav: true,
+    autoplay: true,
+    autoplayTimeout: 3000,
+    autoplayHoverPause: true,
+    center: true,
+    navText: [
+      "<i class='fa fa-angle-left'></i>",
+      "<i class='fa fa-angle-right'></i>",
+    ],
+    responsive: {
+      0: {
+        items: 1,
+      },
+      600: {
+        items: 2,
+      },
+      1000: {
+        items: 5,
       },
     },
   });

@@ -101,9 +101,47 @@ html::-webkit-scrollbar-track {
 }
 .main-img img {
   width: 100%;
-  margin-top: 2rem;
 }
-
+.container_owl_page_3 {
+  margin-top: -50px;
+  z-index: 5;
+}
+.container_owl_page_3 .item {
+  position: relative;
+  display: flex !important;
+  justify-content: center !important;
+  align-items: center !important;
+  flex-direction: column;
+}
+.container_owl_page_3 .item button {
+  background-color: var(--orange);
+  font-family: arabic-bold;
+  padding: 0.5rem 3rem;
+  color: var(--white);
+  border-radius: 5px;
+  font-size: 1rem;
+  border: none;
+  margin: 1rem 0;
+  text-align: center;
+}
+.container_owl_page_3 .item {
+  padding: 0 5rem;
+}
+.container_owl_page_3 .item p {
+  color: var(--text-light);
+  text-align: center;
+  font-family: arabic;
+  line-height: 35px;
+  font-size: 1.25rem;
+}
+/* ///////////////////////////owl_page_3/////////////////////////////? */
+.owl_page_3 {
+  text-align: center;
+  font-size: 1.25rem;
+  font-family: arabic-bold;
+  color: var(--orange);
+}
+/* ////////////////////////////////////////////////////////? */
 /* ////////////////////header-slider/////////////////////// */
 
 .slider-pagination {
@@ -222,24 +260,25 @@ html::-webkit-scrollbar-track {
   padding-top: 2rem;
 }
 .accordion-container h1 {
-  font-size: 1.75rem;
+  font-size: 1.5rem;
   color: var(--blue);
+  font-family: arabic-bold;
 }
 .accordion-container p {
   color: var(--text-light);
   padding-top: 0.75rem;
   font-size: 1.25rem;
+  font-family: arabic;
 }
 .accordion input {
   position: absolute;
   opacity: 0;
   z-index: -1;
-  /* background-color: red; */
 }
 .accordion-wrapper {
   border-radius: 5px;
   overflow: hidden;
-  width: 90%;
+  width: 80%;
   margin: 0 auto;
 }
 .accordion {
@@ -258,6 +297,7 @@ html::-webkit-scrollbar-track {
   justify-content: space-between;
   padding: 1rem 2rem;
   color: var(--text-light);
+  font-family: arabic-bold;
   font-weight: bold;
   cursor: pointer;
   font-size: 18px;
@@ -266,18 +306,20 @@ html::-webkit-scrollbar-track {
 }
 .accordion-label:hover {
   background: var(--orange);
+  color: var(--white);
 }
 .accordion-label::after {
   content: "\2B9F";
   width: 15px;
+  height: 16px;
   background-color: var(--text-light);
   color: white;
-  padding: 0.5rem;
-  height: 16px;
+  padding: 1rem;
   border-radius: 1rem;
-  text-align: center;
-  align-items: center;
-  display: flex;
+  justify-content: center !important;
+  text-align: center !important;
+  align-items: center !important;
+  display: flex !important;
   -webkit-transition: all 0.3s;
   transition: all 0.3s;
 }
@@ -291,12 +333,15 @@ html::-webkit-scrollbar-track {
 }
 .accordion-content p {
   margin: 0;
+  /* font-size: 1rem; */
   color: var(--text-light);
-  font-size: 1.25rem;
+  font-family: arabic;
+  font-size: 1rem;
   text-align: right;
 }
 input:checked + .accordion-label {
-  background: var(--orange);
+  background: var(--blue);
+  color: var(--white);
 }
 input:checked + .accordion-label::after {
   -webkit-transform: rotate(-90deg);
@@ -331,37 +376,40 @@ input:checked ~ .accordion-content {
 }
 .program h1 {
   text-align: center;
-  padding-top: 2rem;
-  font-size: 1.75rem;
+  /* padding-top: 2rem; */
+  font-size: 1.5rem;
   color: var(--blue);
+  font-family: arabic-bold;
 }
 .program-cards {
   display: flex;
   text-align: center;
-  justify-content: space-evenly;
-  padding-top: 3rem;
+  justify-content: center;
+  padding-top: 1rem;
   flex-wrap: wrap;
 }
 .p-card-1 {
-  background-color: white;
+  /* background-color: white; */
   border-radius: 5px;
   width: 30%;
   padding: 1rem;
-  margin: 1rem 0;
+  margin: 1rem;
 }
 .p-card-1:hover {
   box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
 }
 
 .p-card-1 h3 {
-  font-size: 1.5rem;
+  font-size: 1.25rem;
   padding: 1rem 0;
   color: var(--text-light);
+  font-family: arabic-bold;
 }
 .p-card-1 p {
-  font-size: 1.25rem;
-  line-height: 2rem;
+  font-size: 1rem;
+  line-height: 30px;
   color: var(--text-light);
+  font-family: arabic;
 }
 .p-card img {
   width: 30%;
@@ -1005,7 +1053,7 @@ input:checked ~ .accordion-content {
 }
 .setting-content button {
   border: none;
-  background-color: #F8F8FF;
+  background-color: #f8f8ff;
   font-size: 1.25rem;
   color: var(--orange);
   border-bottom: 1px solid var(--orange);
@@ -1096,7 +1144,7 @@ input:checked ~ .accordion-content {
   color: var(--orange);
   font-weight: bold;
   font-family: arabic;
-  margin-top: .5rem;
+  margin-top: 0.5rem;
 }
 .selection_card_1 p {
   color: var(--text);
