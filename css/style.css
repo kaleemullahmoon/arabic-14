@@ -21,6 +21,16 @@
   --white: #ffffff;
   --black: #000000;
 }
+
+.bold {
+  font-family: arabic-bold;
+  font-size: 1.75rem;
+}
+.regular {
+  font-family: arabic;
+  font-size: 1.25rem;
+}
+
 html::-webkit-scrollbar {
   width: 1vw;
 }
@@ -499,11 +509,13 @@ input:checked ~ .accordion-content {
   color: var(--orange);
   font-size: 1.75rem;
   padding-bottom: 1rem;
+  font-family: arabic-bold;
 }
 .wrapper-content p {
   color: var(--text-light);
   font-size: 1.25rem;
-  line-height: 3rem;
+  line-height: 35px;
+  font-family: arabic;
 }
 .applications {
   position: relative;
@@ -512,13 +524,14 @@ input:checked ~ .accordion-content {
 }
 .applications h2 {
   text-align: center;
-  font-size: 1.75rem;
+  font-size: 1.5rem;
   color: var(--blue);
+  font-family: arabic-bold;
 }
 .application-cards {
   display: flex;
   justify-content: center;
-  padding: 3rem 2rem;
+  padding: 3rem 2rem 0 2rem;
 }
 .application-card-1,
 .application-card-2,
@@ -542,15 +555,18 @@ input:checked ~ .accordion-content {
 .application-card-1 h3,
 .application-card-2 h3,
 .application-card-3 h3 {
+  font-family: arabic-bold;
   padding: 2rem 0 1rem 0;
   color: var(--text-light);
-  font-size: 1.5rem;
+  font-size: 1.25rem;
 }
 .application-card-1 p,
 .application-card-2 p,
 .application-card-3 p {
+  font-family: arabic;
   color: var(--text-light);
-  font-size: 1.25rem;
+  font-size: 1rem;
+  line-height: 25px;
 }
 .memory {
   padding: 0 3rem;
@@ -561,6 +577,7 @@ input:checked ~ .accordion-content {
   font-size: 1.75rem;
   color: var(--orange);
   padding-bottom: 2rem;
+  font-family: arabic-bold;
 }
 .main-memory {
   display: flex;
@@ -573,10 +590,12 @@ input:checked ~ .accordion-content {
 .main-memory ul h2 {
   font-size: 1.5rem;
   padding-bottom: 1.5rem;
-  margin-right: -6rem;
+  margin-right: -4rem;
   color: var(--text);
+  font-family: arabic-bold;
 }
 .main-memory ul li {
+  font-family: arabic;
   padding-bottom: 1rem;
   font-size: 1.25rem;
   line-height: 2rem;
@@ -595,13 +614,13 @@ input:checked ~ .accordion-content {
   margin: 1rem;
   width: 45%;
   border-radius: 10px;
-  padding: 2rem;
+  padding: 2rem 2rem 0 2rem;
 }
 .safe-card-1:hover {
   box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
 }
 .safe-card-1 img {
-  height: 20%;
+  height: 22%;
   width: 15%;
   margin-left: 1rem;
 }
@@ -609,11 +628,13 @@ input:checked ~ .accordion-content {
   font-size: 1.5rem;
   color: var(--text);
   padding-bottom: 0.5rem;
+  font-family: arabic-bold;
 }
 .safe-card-1 div P {
-  font-size: 1.25rem;
-  line-height: 2rem;
+  line-height: 30px;
   color: var(--text-light);
+  font-size: 1.25rem;
+  font-family: arabic;
 }
 .order-now {
   position: relative;
@@ -643,14 +664,16 @@ input:checked ~ .accordion-content {
   margin-top: 2rem;
   border-radius: 5px;
   font-size: 1.25rem;
+  font-family: arabic;
 }
 .order-now div button:hover {
   background-color: var(--blue);
   color: var(--white);
 }
 .order-now div p {
-  font-size: 1.5rem;
-  line-height: 2.5rem;
+  font-family: arabic;
+  font-size: 1.25rem;
+  line-height: 30px;
   text-align: center;
   padding: 0 2rem;
   color: white;
@@ -660,13 +683,14 @@ input:checked ~ .accordion-content {
   color: var(--orange);
 }
 .business {
-  padding: 5rem 1.5rem;
+  padding: 1rem 1.5rem;
   overflow: hidden;
 }
 .business h2 {
   text-align: center;
-  font-size: 1.75rem;
+  font-size: 1.5rem;
   color: var(--blue);
+  font-family: arabic-bold;
 }
 .business-cards {
   display: flex;
@@ -679,30 +703,32 @@ input:checked ~ .accordion-content {
   background-color: white;
   border-radius: 5px;
   width: 20%;
-  height: 40%;
+  height: 18rem;
   box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px,
     rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;
 }
 .business_card img {
   width: 100%;
-  height: 50%;
+  height: 65%;
 }
 .business_card div {
   text-align: center;
-  padding: 1rem;
+  padding: 0.25rem;
 }
 .business_card div h2 {
+  font-family: arabic-bold;
   color: var(--text);
   font-size: 1rem;
   font-weight: bold;
   font-weight: 600;
 }
 .business_card div p {
+  font-family: arabic;
   color: var(--text);
   font-weight: bold;
   padding: 0.5rem 0;
   font-size: 1rem;
-  font-weight: 500;
+  font-weight: 400;
 }
 .business_card div i {
   color: var(--text);
@@ -719,13 +745,17 @@ input:checked ~ .accordion-content {
 }
 .techniques h2 {
   text-align: center;
-  font-size: 1.75rem;
+  font-size: 1.5rem;
   color: var(--blue);
+  font-family: arabic-bold;
 }
 .techniques-cards {
   display: flex;
   justify-content: center;
   padding: 2rem;
+}
+.color-orange {
+  color: var(--orange) !important;
 }
 .techniques-card-1,
 .techniques-card-2,
@@ -744,14 +774,16 @@ input:checked ~ .accordion-content {
 .techniques-card-2 h3,
 .techniques-card-3 h3 {
   padding: 1rem 0;
-  font-size: 1.5rem;
+  font-size: 1.25rem;
   color: var(--text);
+  font-family: arabic-bold;
 }
 .techniques-card-1 p,
 .techniques-card-2 p,
 .techniques-card-3 p {
-  font-size: 1.25rem;
-  line-height: 2rem;
+  font-family: arabic !important;
+  font-size: 1.15rem;
+  line-height: 30px;
   color: var(--text-light);
 }
 .techniques-card-1:hover,
@@ -762,13 +794,13 @@ input:checked ~ .accordion-content {
 .wrapper-clients {
   position: relative;
   display: flex;
-  justify-content: space-evenly;
+  justify-content: center;
   padding: 1rem 3rem;
   overflow: hidden;
 }
 .wrapper_client_1 {
   border-radius: 5px;
-  margin: 0 1rem;
+  margin: 0 0.5rem;
   padding: 2rem;
   width: 100%;
   height: 9rem;
@@ -808,13 +840,15 @@ input:checked ~ .accordion-content {
   text-align: center;
 }
 .main_offer h1 {
-  font-size: 1.75rem;
+  font-size: 1.5rem;
   color: var(--orange);
+  font-family: arabic-bold;
 }
 .main_offer p {
   padding: 2rem 0;
   font-size: 1.25rem;
   color: var(--text);
+  font-family: arabic;
 }
 .main_offer button {
   background-color: var(--blue);
@@ -823,10 +857,10 @@ input:checked ~ .accordion-content {
   border: none;
   color: white;
   font-size: 1.3rem;
+  font-family: arabic;
 }
 .main_offer button:hover {
   background-color: var(--orange);
-  font-size: 1.25rem;
   cursor: pointer;
 }
 /* /////////////////////////////////////////////////////////////////////////////////////////// */
