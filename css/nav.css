@@ -140,6 +140,9 @@ nav ul ul {
   opacity: 0;
   box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
   z-index: 999;
+  background-color: var(--white);
+  width: 100%;
+  /* width: 150px; */
 }
 
 nav ul li:hover>ul {
@@ -148,16 +151,22 @@ nav ul li:hover>ul {
   opacity: 1;
   transition: 0.3 linear;
   z-index: 999;
+  /* background-color: pink; */
+  width: 200px;
 }
 
 nav ul ul li {
-  width: 150px;
   display: list-item;
   position: relative;
-  padding: 0.5rem 0;
+  /* padding: .5rem 1rem; */
   z-index: 9999;
   opacity: 1;
   background-color: var(--white);
+  border-bottom: 1px solid var(--text-light);
+  padding: .75rem 0;
+}
+nav ul ul li {
+  color: var(--text-light);
 }
 
 nav ul li i {

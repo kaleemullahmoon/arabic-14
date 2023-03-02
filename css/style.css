@@ -794,7 +794,7 @@ input:checked ~ .accordion-content {
   align-items: center;
   padding: 1.5rem;
   overflow: hidden;
-  background-color: wheat;
+  background-color: var(--white);
 }
 .header_wrapper_slider {
   display: flex;
