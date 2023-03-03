@@ -31,6 +31,7 @@ $(document).ready(function () {
   });
   two.owlCarousel({
     nav: true,
+    rewind: true,
     autoplay: true,
     responsiveClass: true,
     animateIn: "fadeIn",
@@ -92,11 +93,12 @@ $(document).ready(function () {
   });
   five.owlCarousel({
     // loop: true,
+    rewind: true,
     margin: 5,
     nav: false,
-    autoplay: true,
+    // autoplay: true,
     autoplayTimeout: 3000,
-    autoplayHoverPause: true,
+    // autoplayHoverPause: true,
     center: false,
     dot:true,
     navText: [
