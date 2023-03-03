@@ -1209,8 +1209,8 @@ input:checked ~ .accordion-content {
   padding-top: 1rem;
   font-weight: 600;
 }
-.client_wrapper{
-margin-top: 2rem;
+.client_wrapper {
+  margin-top: 2rem;
 }
 #client_list {
   text-align: center;

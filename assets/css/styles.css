@@ -27,8 +27,16 @@ html {
   transform: scale(1.15);
   opacity: 1;
   background: #ff9966; /* fallback for old browsers */
-  background: -webkit-linear-gradient(to bottom, #ff5e62, #ff9966); /* Chrome 10-25, Safari 5.1-6 */
-  background: linear-gradient(to bottom, #ff5e62, #ff9966); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  background: -webkit-linear-gradient(
+    to bottom,
+    #ff5e62,
+    #ff9966
+  ); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(
+    to bottom,
+    #ff5e62,
+    #ff9966
+  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
   color: #fff;
 }
 .slider-card {
@@ -95,16 +103,52 @@ html {
   background: #ff9966 !important;
 }
 
-
 /* ////////////////////////////////? */
-.main-sec-2 h1{
+.main-sec-2 h1 {
   font-family: arabic-bold;
   color: var(--blue);
   font-size: 1.75rem !important;
 }
-.main-sec-2 h2{
+.main-sec-2 h2 {
   font-family: arabi;
   color: var(--orange);
   font-size: 1.5rem;
   font-weight: 400;
 }
+/* //////////////////////////////////// */
+
+.testimonial-card {
+  background-color: var(--white);
+  border-radius: 5px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.testimonial-card img {
+  width: 25% !important;
+  margin-top: 1rem;
+}
+.testimonial-card h5 {
+  color: var(--text);
+  font-family: arabic-bold;
+  font-size: 1.2rem;
+}
+.testimonial-card p {
+  color: var(--text-light) !important;
+  font-family: arabic !important;
+  font-size: 1rem !important;
+}
+.testimonial-stars {
+  margin-top: -20px;
+  margin-bottom: 5px;
+}
+.testimonial-stars i{
+  color: gold;
+}
+.testimonial-card h6 {
+  margin-top: 8px;
+  color: var(--text) !important;
+  font-family: arabic-bold !important;
+}
+
