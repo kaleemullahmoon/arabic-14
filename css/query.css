@@ -176,17 +176,17 @@
     width: 100% !important;
   }
   .footer-right p {
-    font-size: 1rem;
+    font-size: 1.25rem;
   }
   .footer-right h3 {
-    font-size: 1rem;
+    font-size: 1.25rem;
   }
   .footer_left_list ul .first-li {
-    font-size: 1rem;
+    font-size: 1.25rem;
   }
   .footer_left_list ul li {
     padding: 0.2rem 0;
-    font-size: 1rem;
+    font-size: 1.25rem;
   }
   .footer-left div {
     width: 100%;
@@ -680,5 +680,4 @@
     font-size: 1rem;
     color: var(--white);
   }
-  
 }

@@ -87,9 +87,9 @@ html::-webkit-scrollbar-track {
 .main-btn-2 {
   border: none;
   margin: 0 1rem;
-  width: 15rem;
+  width: 12rem;
   color: white;
-  font-size: 1.25rem;
+  font-size: 1rem;
   border-radius: 10px;
   padding: 0.6rem 1rem;
   filter: drop-shadow(0px 0px 12.5px rgba(0, 0, 0, 0.16));
@@ -147,9 +147,10 @@ html::-webkit-scrollbar-track {
 /* ///////////////////////////owl_page_3/////////////////////////////? */
 .owl_page_3 {
   text-align: center;
-  font-size: 1.25rem;
+  font-size: 1rem !important;
   font-family: arabic-bold;
   color: var(--orange);
+  padding-bottom: 1rem !important;
 }
 /* ////////////////////////////////////////////////////////? */
 /* ////////////////////header-slider/////////////////////// */
@@ -175,12 +176,14 @@ html::-webkit-scrollbar-track {
   font-size: 1.75rem;
   padding-bottom: 1rem;
   color: var(--text-light);
+  font-family: arabic-bold;
 }
 .blog-data p {
   font-size: 1.25rem;
   line-height: 2.5rem;
   padding-bottom: 1rem;
   color: var(--text-light);
+  font-family: arabic;
 }
 .blog-btns {
   display: flex;
@@ -1339,59 +1342,61 @@ footer {
 }
 .footer-right {
   width: 50%;
+  /* background-color: wheat; */
 }
 .footer-right img {
   width: 20%;
 }
 .footer-right p {
-  color: var(--text);
+  font-family: arabic;
+  color: var(--text-light);
   font-size: 1.25rem;
   line-height: 2.4rem;
   padding: 1rem 0;
 }
 .footer-right h3 {
+  font-family: arabic-bold;
   color: var(--text);
   font-size: 1.25rem;
   padding: 1rem 0;
 }
 .footer-left {
   margin-top: 1.8rem;
-  width: 35%;
+  width: 40%;
+  /* background-color: pink; */
 }
 .footer_left_list {
   display: flex;
   justify-content: space-between !important;
-  padding-left: 3rem;
-}
-.footer_left_list {
-  color: black !important;
+  padding: 1rem;
 }
 .footer_left_list ul .first-li {
-  color: black !important;
-  font-weight: bold;
+  font-family: arabic-bold;
+  color: var(--text) !important;
   font-size: 1.25rem;
-  font-family: arabic;
 }
 
 .footer_left_list ul li {
   list-style: none;
   padding: 0.2rem 0;
-  color: var(--text);
+  color: var(--text-light);
   font-size: 1.25rem;
   font-family: arabic;
 }
 
 .footer-left div {
   display: flex;
-  justify-content: center !important;
+  justify-content: space-around;
   align-items: center !important;
-  margin-left: 6rem;
+  padding: 0 2rem;
 }
-
+.footer_icon {
+  /* margin-left: -4rem !important; */
+}
 .footer-left .footer-icon {
   background-color: var(--orange) !important;
   border-radius: 30px;
-  padding: 1.5rem;
+  padding: 1.25rem;
   width: 2rem;
   height: 2rem;
   text-align: center;
