@@ -30,14 +30,17 @@ $(document).ready(function () {
     },
   });
   two.owlCarousel({
+    nav: true,
+    autoplay: true,
     responsiveClass: true,
     animateIn: "fadeIn",
     animateOut: "fadeOut",
     margin: 10,
     dot: false,
+    center: false,
     navText: [
-      "<i class= 'fa fa-angle-left'></i>",
-      "<i class= 'fa fa-angle-left'></i>",
+      "<i class='fa fa-angle-left'></i>",
+      "<i class='fa fa-angle-right'></i>",
     ],
     responsive: {
       0: {
@@ -90,11 +93,12 @@ $(document).ready(function () {
   five.owlCarousel({
     // loop: true,
     margin: 5,
-    nav: true,
+    nav: false,
     autoplay: true,
     autoplayTimeout: 3000,
     autoplayHoverPause: true,
-    center: true,
+    center: false,
+    dot:true,
     navText: [
       "<i class='fa fa-angle-left'></i>",
       "<i class='fa fa-angle-right'></i>",
@@ -107,7 +111,7 @@ $(document).ready(function () {
         items: 2,
       },
       1000: {
-        items: 5,
+        items: 6,
       },
     },
   });
